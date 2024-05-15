@@ -1,0 +1,29 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:115:18:virtual void touchgfx::Screen::tearDownScreen()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:59:5:touchgfx::TypedText::TypedText(touchgfx::TypedTextId)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:65:13:touchgfx::TypedText::~TypedText()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:65:13:virtual touchgfx::TypedText::~TypedText()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/main_2_screen/Main_2ViewBase.hpp:78:18:virtual void Main_2ViewBase::unveilingUpdate()	1
+../../TouchGFX/gui/include/gui/main_2_screen/Main_2View.hpp:34:13:Main_2View::~Main_2View()	1
+../../TouchGFX/gui/include/gui/main_2_screen/Main_2View.hpp:34:13:virtual Main_2View::~Main_2View()	1
+C:\ST\STM32CubeIDE_1.13.2\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626\tools\arm-none-eabi\include\c++\11.3.1\arm-none-eabi\thumb\v8-m.main+fp\hard\bits\gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	1
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/main_2_screen/Main_2View.cpp:8:1:Main_2View::Main_2View()	1
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/main_2_screen/Main_2View.cpp:45:6:virtual void Main_2View::setupScreen()	1
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/main_2_screen/Main_2View.cpp:50:6:virtual void Main_2View::tearDownScreen()	1
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/main_2_screen/Main_2View.cpp:55:6:virtual void Main_2View::updateCAN()	1
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/main_2_screen/Main_2View.cpp:82:6:virtual void Main_2View::setSpeed()	101
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/main_2_screen/Main_2View.cpp:394:6:virtual void Main_2View::setMinSpeed()	101
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/main_2_screen/Main_2View.cpp:707:6:virtual void Main_2View::setMaxSpeed()	101
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/main_2_screen/Main_2View.cpp:1021:6:virtual void Main_2View::setDraw()	101
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/main_2_screen/Main_2View.cpp:1334:6:virtual void Main_2View::setHV()	2
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/main_2_screen/Main_2View.cpp:1348:6:virtual void Main_2View::setLV()	2
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/main_2_screen/Main_2View.cpp:1361:6:virtual void Main_2View::setAccel()	2
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/main_2_screen/Main_2View.cpp:1373:6:virtual void Main_2View::setBrake()	2
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/main_2_screen/Main_2View.cpp:1384:6:virtual void Main_2View::setError_Cooling()	1
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/main_2_screen/Main_2View.cpp:1396:6:virtual void Main_2View::setError_VCU()	1
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/main_2_screen/Main_2View.cpp:1400:6:virtual void Main_2View::setError_Inverter()	1
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/main_2_screen/Main_2View.cpp:1404:6:virtual void Main_2View::setError_WheelSpeed()	1
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/main_2_screen/Main_2View.cpp:1406:1:void __static_initialization_and_destruction_0(int, int)	5
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/main_2_screen/Main_2View.cpp:1406:1:cpp)	1
+C:/TouchGFXProjects/MyApplication/TouchGFX/gui/src/main_2_screen/Main_2View.cpp:1406:1:cpp)	1

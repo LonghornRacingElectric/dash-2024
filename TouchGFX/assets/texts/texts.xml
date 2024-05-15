@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.23.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="miliseconds">
+      <Text Id="Num__9" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">9</Translation>
+      </Text>
+      <Text Id="Num__8" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">8</Translation>
+      </Text>
+      <Text Id="Num__7" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">7</Translation>
+      </Text>
+      <Text Id="Num__6" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">6</Translation>
+      </Text>
+      <Text Id="Num__5" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">5</Translation>
+      </Text>
+      <Text Id="Num__4" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">4</Translation>
+      </Text>
+      <Text Id="Num__3" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">3</Translation>
+      </Text>
+      <Text Id="Num__2" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">2</Translation>
+      </Text>
+      <Text Id="Num__1" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">1</Translation>
+      </Text>
+      <Text Id="Num__0" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="MinMaxDrawText">
+      <Text Id="Num_99" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">99</Translation>
+      </Text>
+      <Text Id="Num_98" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">98</Translation>
+      </Text>
+      <Text Id="Num_97" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">97</Translation>
+      </Text>
+      <Text Id="Num_96" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">96</Translation>
+      </Text>
+      <Text Id="Num_95" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">95</Translation>
+      </Text>
+      <Text Id="Num_94" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">94</Translation>
+      </Text>
+      <Text Id="Num_93" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">93</Translation>
+      </Text>
+      <Text Id="Num_92" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">92</Translation>
+      </Text>
+      <Text Id="Num_91" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">91</Translation>
+      </Text>
+      <Text Id="Num_90" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">90</Translation>
+      </Text>
+      <Text Id="Num_89" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">89</Translation>
+      </Text>
+      <Text Id="Num_88" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">88</Translation>
+      </Text>
+      <Text Id="Num_87" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">87</Translation>
+      </Text>
+      <Text Id="Num_86" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">86</Translation>
+      </Text>
+      <Text Id="Num_85" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">85</Translation>
+      </Text>
+      <Text Id="Num_84" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">84</Translation>
+      </Text>
+      <Text Id="Num_83" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">83</Translation>
+      </Text>
+      <Text Id="Num_82" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">82</Translation>
+      </Text>
+      <Text Id="Num_81" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">81</Translation>
+      </Text>
+      <Text Id="Num_80" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">80</Translation>
+      </Text>
+      <Text Id="Num_79" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">79</Translation>
+      </Text>
+      <Text Id="Num_78" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">78</Translation>
+      </Text>
+      <Text Id="Num_77" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">77</Translation>
+      </Text>
+      <Text Id="Num_76" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">76</Translation>
+      </Text>
+      <Text Id="Num_75" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">75</Translation>
+      </Text>
+      <Text Id="Num_74" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">74</Translation>
+      </Text>
+      <Text Id="Num_73" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">73</Translation>
+      </Text>
+      <Text Id="Num_72" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">72</Translation>
+      </Text>
+      <Text Id="Num_71" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">71</Translation>
+      </Text>
+      <Text Id="Num_70" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">70</Translation>
+      </Text>
+      <Text Id="Num_69" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">69</Translation>
+      </Text>
+      <Text Id="Num_68" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">68</Translation>
+      </Text>
+      <Text Id="Num_67" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">67</Translation>
+      </Text>
+      <Text Id="Num_66" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">66</Translation>
+      </Text>
+      <Text Id="Num_65" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">65</Translation>
+      </Text>
+      <Text Id="Num_64" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">64</Translation>
+      </Text>
+      <Text Id="Num_63" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">63</Translation>
+      </Text>
+      <Text Id="Num_62" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">62</Translation>
+      </Text>
+      <Text Id="Num_61" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">61</Translation>
+      </Text>
+      <Text Id="Num_60" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">60</Translation>
+      </Text>
+      <Text Id="Num_59" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">59</Translation>
+      </Text>
+      <Text Id="Num_58" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">58</Translation>
+      </Text>
+      <Text Id="Num_57" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">57</Translation>
+      </Text>
+      <Text Id="Num_56" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">56</Translation>
+      </Text>
+      <Text Id="Num_55" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">55</Translation>
+      </Text>
+      <Text Id="Num_54" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">54</Translation>
+      </Text>
+      <Text Id="Num_53" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">53</Translation>
+      </Text>
+      <Text Id="Num_52" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">52</Translation>
+      </Text>
+      <Text Id="Num_51" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">51</Translation>
+      </Text>
+      <Text Id="Num_50" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">50</Translation>
+      </Text>
+      <Text Id="Num_49" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">49</Translation>
+      </Text>
+      <Text Id="Num_48" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">48</Translation>
+      </Text>
+      <Text Id="Num_47" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">47</Translation>
+      </Text>
+      <Text Id="Num_46" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">46</Translation>
+      </Text>
+      <Text Id="Num_45" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">45</Translation>
+      </Text>
+      <Text Id="Num_44" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">44</Translation>
+      </Text>
+      <Text Id="Num_43" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">43</Translation>
+      </Text>
+      <Text Id="Num_42" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">42</Translation>
+      </Text>
+      <Text Id="Num_41" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">41</Translation>
+      </Text>
+      <Text Id="Num_40" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">40</Translation>
+      </Text>
+      <Text Id="Num_39" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">39</Translation>
+      </Text>
+      <Text Id="Num_38" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">38</Translation>
+      </Text>
+      <Text Id="Num_37" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">37</Translation>
+      </Text>
+      <Text Id="Num_36" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">36</Translation>
+      </Text>
+      <Text Id="Num_35" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">35</Translation>
+      </Text>
+      <Text Id="Num_34" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">34</Translation>
+      </Text>
+      <Text Id="Num_33" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">33</Translation>
+      </Text>
+      <Text Id="Num_32" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">32</Translation>
+      </Text>
+      <Text Id="Num_31" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">31</Translation>
+      </Text>
+      <Text Id="Num_30" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">30</Translation>
+      </Text>
+      <Text Id="Num_29" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">29</Translation>
+      </Text>
+      <Text Id="Num_28" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">28</Translation>
+      </Text>
+      <Text Id="Num_27" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">27</Translation>
+      </Text>
+      <Text Id="Num_26" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">26</Translation>
+      </Text>
+      <Text Id="Num_25" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">25</Translation>
+      </Text>
+      <Text Id="Num_24" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">24</Translation>
+      </Text>
+      <Text Id="Num_23" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">23</Translation>
+      </Text>
+      <Text Id="Num_22" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">22</Translation>
+      </Text>
+      <Text Id="Num_21" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">21</Translation>
+      </Text>
+      <Text Id="Num_20" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">20</Translation>
+      </Text>
+      <Text Id="Num_19" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">19</Translation>
+      </Text>
+      <Text Id="Num_18" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">18</Translation>
+      </Text>
+      <Text Id="Num_17" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">17</Translation>
+      </Text>
+      <Text Id="Num_16" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">16</Translation>
+      </Text>
+      <Text Id="Num_15" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">15</Translation>
+      </Text>
+      <Text Id="Num_14" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">14</Translation>
+      </Text>
+      <Text Id="Num_13" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">13</Translation>
+      </Text>
+      <Text Id="Num_12" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">12</Translation>
+      </Text>
+      <Text Id="Num_11" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">11</Translation>
+      </Text>
+      <Text Id="Num_10" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">10</Translation>
+      </Text>
+      <Text Id="Num_9" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">09</Translation>
+      </Text>
+      <Text Id="Num_8" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">08</Translation>
+      </Text>
+      <Text Id="Num_7" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">07</Translation>
+      </Text>
+      <Text Id="Num_6" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">06</Translation>
+      </Text>
+      <Text Id="Num_5" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">05</Translation>
+      </Text>
+      <Text Id="Num_4" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">04</Translation>
+      </Text>
+      <Text Id="Num_3" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">03</Translation>
+      </Text>
+      <Text Id="Num_2" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">02</Translation>
+      </Text>
+      <Text Id="Num_1" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">01</Translation>
+      </Text>
+      <Text Id="Num_0" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">00</Translation>
+      </Text>
+      <Text Id="Num_NA" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">NA</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="SpeedTexts">
+      <Text Id="Num99" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">99</Translation>
+      </Text>
+      <Text Id="Num98" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">98</Translation>
+      </Text>
+      <Text Id="Num97" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">97</Translation>
+      </Text>
+      <Text Id="Num96" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">96</Translation>
+      </Text>
+      <Text Id="Num95" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">95</Translation>
+      </Text>
+      <Text Id="Num94" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">94</Translation>
+      </Text>
+      <Text Id="Num93" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">93</Translation>
+      </Text>
+      <Text Id="Num92" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">92</Translation>
+      </Text>
+      <Text Id="Num91" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">91</Translation>
+      </Text>
+      <Text Id="Num90" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">90</Translation>
+      </Text>
+      <Text Id="Num89" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">89</Translation>
+      </Text>
+      <Text Id="Num88" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">88</Translation>
+      </Text>
+      <Text Id="Num87" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">87</Translation>
+      </Text>
+      <Text Id="Num86" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">86</Translation>
+      </Text>
+      <Text Id="Num85" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">85</Translation>
+      </Text>
+      <Text Id="Num84" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">84</Translation>
+      </Text>
+      <Text Id="Num83" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">83</Translation>
+      </Text>
+      <Text Id="Num82" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">82</Translation>
+      </Text>
+      <Text Id="Num81" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">81</Translation>
+      </Text>
+      <Text Id="Num80" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">80</Translation>
+      </Text>
+      <Text Id="Num79" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">79</Translation>
+      </Text>
+      <Text Id="Num78" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">78</Translation>
+      </Text>
+      <Text Id="Num77" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">77</Translation>
+      </Text>
+      <Text Id="Num76" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">76</Translation>
+      </Text>
+      <Text Id="Num75" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">75</Translation>
+      </Text>
+      <Text Id="Num74" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">74</Translation>
+      </Text>
+      <Text Id="Num73" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">73</Translation>
+      </Text>
+      <Text Id="Num72" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">72</Translation>
+      </Text>
+      <Text Id="Num71" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">71</Translation>
+      </Text>
+      <Text Id="Num70" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">70</Translation>
+      </Text>
+      <Text Id="Num69" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">69</Translation>
+      </Text>
+      <Text Id="Num68" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">68</Translation>
+      </Text>
+      <Text Id="Num67" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">67</Translation>
+      </Text>
+      <Text Id="Num66" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">66</Translation>
+      </Text>
+      <Text Id="Num65" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">65</Translation>
+      </Text>
+      <Text Id="Num64" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">64</Translation>
+      </Text>
+      <Text Id="Num63" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">63</Translation>
+      </Text>
+      <Text Id="Num62" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">62</Translation>
+      </Text>
+      <Text Id="Num61" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">61</Translation>
+      </Text>
+      <Text Id="Num60" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">60</Translation>
+      </Text>
+      <Text Id="Num59" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">59</Translation>
+      </Text>
+      <Text Id="Num58" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">58</Translation>
+      </Text>
+      <Text Id="Num57" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">57</Translation>
+      </Text>
+      <Text Id="Num56" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">56</Translation>
+      </Text>
+      <Text Id="Num55" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">55</Translation>
+      </Text>
+      <Text Id="Num54" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">54</Translation>
+      </Text>
+      <Text Id="Num53" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">53</Translation>
+      </Text>
+      <Text Id="Num52" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">52</Translation>
+      </Text>
+      <Text Id="Num51" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">51</Translation>
+      </Text>
+      <Text Id="Num50" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">50</Translation>
+      </Text>
+      <Text Id="Num49" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">49</Translation>
+      </Text>
+      <Text Id="Num48" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">48</Translation>
+      </Text>
+      <Text Id="Num47" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">47</Translation>
+      </Text>
+      <Text Id="Num46" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">46</Translation>
+      </Text>
+      <Text Id="Num45" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">45</Translation>
+      </Text>
+      <Text Id="Num44" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">44</Translation>
+      </Text>
+      <Text Id="Num43" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">43</Translation>
+      </Text>
+      <Text Id="Num42" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">42</Translation>
+      </Text>
+      <Text Id="Num41" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">41</Translation>
+      </Text>
+      <Text Id="Num40" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">40</Translation>
+      </Text>
+      <Text Id="Num39" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">39</Translation>
+      </Text>
+      <Text Id="Num38" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">38</Translation>
+      </Text>
+      <Text Id="Num37" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">37</Translation>
+      </Text>
+      <Text Id="Num36" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">36</Translation>
+      </Text>
+      <Text Id="Num35" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">35</Translation>
+      </Text>
+      <Text Id="Num34" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">34</Translation>
+      </Text>
+      <Text Id="Num33" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">33</Translation>
+      </Text>
+      <Text Id="Num32" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">32</Translation>
+      </Text>
+      <Text Id="Num31" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">31</Translation>
+      </Text>
+      <Text Id="Num30" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">30</Translation>
+      </Text>
+      <Text Id="Num29" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">29</Translation>
+      </Text>
+      <Text Id="Num28" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">28</Translation>
+      </Text>
+      <Text Id="Num27" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">27</Translation>
+      </Text>
+      <Text Id="Num26" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">26</Translation>
+      </Text>
+      <Text Id="Num25" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">25</Translation>
+      </Text>
+      <Text Id="Num24" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">24</Translation>
+      </Text>
+      <Text Id="Num23" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">23</Translation>
+      </Text>
+      <Text Id="Num22" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">22</Translation>
+      </Text>
+      <Text Id="Num21" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">21</Translation>
+      </Text>
+      <Text Id="Num20" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">20</Translation>
+      </Text>
+      <Text Id="Num19" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">19</Translation>
+      </Text>
+      <Text Id="Num18" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">18</Translation>
+      </Text>
+      <Text Id="Num17" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">17</Translation>
+      </Text>
+      <Text Id="Num16" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">16</Translation>
+      </Text>
+      <Text Id="Num15" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">15</Translation>
+      </Text>
+      <Text Id="Num14" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">14</Translation>
+      </Text>
+      <Text Id="Num13" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">13</Translation>
+      </Text>
+      <Text Id="Num12" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">12</Translation>
+      </Text>
+      <Text Id="Num11" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">11</Translation>
+      </Text>
+      <Text Id="Num10" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">10</Translation>
+      </Text>
+      <Text Id="Num9" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">09</Translation>
+      </Text>
+      <Text Id="Num8" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">08</Translation>
+      </Text>
+      <Text Id="Num7" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">07</Translation>
+      </Text>
+      <Text Id="Num6" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">06</Translation>
+      </Text>
+      <Text Id="Num5" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">05</Translation>
+      </Text>
+      <Text Id="Num4" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">04</Translation>
+      </Text>
+      <Text Id="Num3" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">03</Translation>
+      </Text>
+      <Text Id="Num2" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">02</Translation>
+      </Text>
+      <Text Id="Num1" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">01</Translation>
+      </Text>
+      <Text Id="Num0" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB" Alignment="Left">00</Translation>
+      </Text>
+      <Text Id="NumNA" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">NA</Translation>
+      </Text>
+    </TextGroup>
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_CJBB" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">LV</Translation>
+      </Text>
+      <Text Id="__SingleUse_75R8" Alignment="Left" TypographyId="Typography_01">
+        <Translation Language="GB">HV</Translation>
+      </Text>
+      <Text Id="__SingleUse_SV5H" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">X</Translation>
+      </Text>
+      <Text Id="__SingleUse_M8AI" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">XX</Translation>
+      </Text>
+      <Text Id="__SingleUse_3QHR" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">.</Translation>
+      </Text>
+      <Text Id="__SingleUse_YMA8" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">XX</Translation>
+      </Text>
+      <Text Id="__SingleUse_9ASA" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">:</Translation>
+      </Text>
+      <Text Id="__SingleUse_TEPV" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">XX</Translation>
+      </Text>
+      <Text Id="__SingleUse_3IMD" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">XX</Translation>
+      </Text>
+      <Text Id="__SingleUse_LP9N" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">XX</Translation>
+      </Text>
+      <Text Id="__SingleUse_RRK6" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">ERRORS</Translation>
+      </Text>
+      <Text Id="__SingleUse_QGWY" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">XX</Translation>
+      </Text>
+      <Text Id="__SingleUse_WBQP" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">kW</Translation>
+      </Text>
+      <Text Id="__SingleUse_L6S9" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">XX</Translation>
+      </Text>
+      <Text Id="__SingleUse_NWIC" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Motor &#10;Temp</Translation>
+      </Text>
+      <Text Id="__SingleUse_D5EY" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Battery&#10;Temp</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="80" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="verdana.ttf" Size="180" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="50" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_00" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_01" Font="verdana.ttf" Size="35" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>
