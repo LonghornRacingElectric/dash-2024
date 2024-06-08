@@ -53,7 +53,7 @@
             "X": 277,
             "Y": -29,
             "Width": 246,
-            "Height": 219,
+            "Height": 183,
             "TextId": "__SingleUse_LP9N",
             "TextRotation": "0",
             "Color": {
@@ -61,7 +61,12 @@
               "Green": 255,
               "Blue": 255
             },
-            "AutoSize": true
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_I6JL",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
           },
           {
             "Type": "BoxProgress",
@@ -101,7 +106,7 @@
             "Name": "txt_MAX",
             "X": 50,
             "Width": 185,
-            "Height": 122,
+            "Height": 120,
             "TextId": "__SingleUse_D5EY",
             "TextRotation": "0",
             "Color": {
@@ -116,7 +121,7 @@
             "Name": "txt_MIN",
             "X": 582,
             "Width": 161,
-            "Height": 122,
+            "Height": 120,
             "TextId": "__SingleUse_NWIC",
             "TextRotation": "0",
             "Color": {
@@ -132,7 +137,7 @@
             "X": 630,
             "Y": 341,
             "Width": 79,
-            "Height": 61,
+            "Height": 60,
             "TextId": "__SingleUse_WBQP",
             "TextRotation": "0",
             "Color": {
@@ -148,7 +153,7 @@
             "X": 60,
             "Y": 349,
             "Width": 210,
-            "Height": 61,
+            "Height": 60,
             "TextId": "__SingleUse_RRK6",
             "TextRotation": "0",
             "Color": {
@@ -164,7 +169,7 @@
             "X": 60,
             "Y": 120,
             "Width": 110,
-            "Height": 97,
+            "Height": 95,
             "TextId": "__SingleUse_3IMD",
             "TextRotation": "0",
             "Color": {
@@ -172,7 +177,12 @@
               "Green": 255,
               "Blue": 255
             },
-            "AutoSize": true
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_7F43",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
           },
           {
             "Type": "TextArea",
@@ -180,7 +190,7 @@
             "X": 621,
             "Y": 120,
             "Width": 110,
-            "Height": 97,
+            "Height": 95,
             "TextId": "__SingleUse_L6S9",
             "TextRotation": "0",
             "Color": {
@@ -188,7 +198,12 @@
               "Green": 255,
               "Blue": 255
             },
-            "AutoSize": true
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_YT4K",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
           },
           {
             "Type": "TextArea",
@@ -196,7 +211,7 @@
             "X": 615,
             "Y": 392,
             "Width": 110,
-            "Height": 97,
+            "Height": 95,
             "TextId": "__SingleUse_QGWY",
             "TextRotation": "0",
             "Color": {
@@ -204,7 +219,12 @@
               "Green": 255,
               "Blue": 255
             },
-            "AutoSize": true
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_Y1U1",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
           },
           {
             "Type": "BoxProgress",
@@ -322,7 +342,7 @@
             "X": 170,
             "Y": 187,
             "Width": 110,
-            "Height": 97,
+            "Height": 95,
             "TextId": "__SingleUse_TEPV",
             "TextRotation": "0",
             "Color": {
@@ -330,7 +350,12 @@
               "Green": 255,
               "Blue": 255
             },
-            "AutoSize": true
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_Q3TA",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
           },
           {
             "Type": "TextArea",
@@ -338,7 +363,7 @@
             "X": 280,
             "Y": 187,
             "Width": 36,
-            "Height": 97,
+            "Height": 95,
             "TextId": "__SingleUse_9ASA",
             "TextRotation": "0",
             "Color": {
@@ -354,7 +379,7 @@
             "X": 316,
             "Y": 187,
             "Width": 110,
-            "Height": 97,
+            "Height": 95,
             "TextId": "__SingleUse_YMA8",
             "TextRotation": "0",
             "Color": {
@@ -362,7 +387,12 @@
               "Green": 255,
               "Blue": 255
             },
-            "AutoSize": true
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_A32Z",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
           },
           {
             "Type": "TextArea",
@@ -370,7 +400,7 @@
             "X": 426,
             "Y": 187,
             "Width": 29,
-            "Height": 97,
+            "Height": 95,
             "TextId": "__SingleUse_3QHR",
             "TextRotation": "0",
             "Color": {
@@ -386,7 +416,7 @@
             "X": 455,
             "Y": 187,
             "Width": 110,
-            "Height": 97,
+            "Height": 95,
             "TextId": "__SingleUse_M8AI",
             "TextRotation": "0",
             "Color": {
@@ -394,7 +424,12 @@
               "Green": 255,
               "Blue": 255
             },
-            "AutoSize": true
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_ZF07",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
           },
           {
             "Type": "TextArea",
@@ -402,7 +437,7 @@
             "X": 565,
             "Y": 187,
             "Width": 55,
-            "Height": 97,
+            "Height": 95,
             "TextId": "__SingleUse_SV5H",
             "TextRotation": "0",
             "Color": {
@@ -410,14 +445,17 @@
               "Green": 255,
               "Blue": 255
             },
-            "AutoSize": true
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_KZWY"
+            }
           },
           {
             "Type": "TextArea",
             "Name": "HV_text",
             "Y": 436,
             "Width": 50,
-            "Height": 43,
+            "Height": 35,
             "TextId": "__SingleUse_75R8",
             "TextRotation": "0",
             "Color": {
@@ -433,7 +471,7 @@
             "X": 753,
             "Y": 433,
             "Width": 47,
-            "Height": 49,
+            "Height": 40,
             "TextId": "__SingleUse_CJBB",
             "TextRotation": "0",
             "Color": {
@@ -442,141 +480,24 @@
               "Blue": 255
             },
             "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 262,
+            "Y": 332,
+            "Width": 201,
+            "Height": 95,
+            "TextId": "__SingleUse_TBV8",
+            "TextRotation": "0",
+            "Alpha": 0,
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_RFJ4"
+            }
           }
         ],
         "Interactions": [
-          {
-            "InteractionName": "TextUpdate_Speed",
-            "Trigger": {
-              "Type": "TriggerInteractionCompleted",
-              "InteractionToTriggerOn": "CAN_Update"
-            },
-            "Action": {
-              "Type": "ActionCustom",
-              "FunctionName": "setSpeed"
-            }
-          },
-          {
-            "InteractionName": "TextUpdate_MIN",
-            "Trigger": {
-              "Type": "TriggerInteractionCompleted",
-              "InteractionToTriggerOn": "CAN_Update"
-            },
-            "Action": {
-              "Type": "ActionCustom",
-              "FunctionName": "setMinSpeed"
-            }
-          },
-          {
-            "InteractionName": "TextUpdate_MAX",
-            "Trigger": {
-              "Type": "TriggerInteractionCompleted",
-              "InteractionToTriggerOn": "CAN_Update"
-            },
-            "Action": {
-              "Type": "ActionCustom",
-              "FunctionName": "setMaxSpeed"
-            }
-          },
-          {
-            "InteractionName": "TextUpdate_Draw",
-            "Trigger": {
-              "Type": "TriggerInteractionCompleted",
-              "InteractionToTriggerOn": "CAN_Update"
-            },
-            "Action": {
-              "Type": "ActionCustom",
-              "FunctionName": "setDraw"
-            }
-          },
-          {
-            "InteractionName": "BarUpdate_HV",
-            "Trigger": {
-              "Type": "TriggerInteractionCompleted",
-              "InteractionToTriggerOn": "CAN_Update"
-            },
-            "Action": {
-              "Type": "ActionCustom",
-              "FunctionName": "setHV"
-            }
-          },
-          {
-            "InteractionName": "BarUpdate_LV",
-            "Trigger": {
-              "Type": "TriggerInteractionCompleted",
-              "InteractionToTriggerOn": "CAN_Update"
-            },
-            "Action": {
-              "Type": "ActionCustom",
-              "FunctionName": "setLV"
-            }
-          },
-          {
-            "InteractionName": "errorUpdate_Cooling",
-            "Trigger": {
-              "Type": "TriggerInteractionCompleted",
-              "InteractionToTriggerOn": "CAN_Update"
-            },
-            "Action": {
-              "Type": "ActionCustom",
-              "FunctionName": "setError_Cooling"
-            }
-          },
-          {
-            "InteractionName": "errorUpdate_VCU",
-            "Trigger": {
-              "Type": "TriggerInteractionCompleted",
-              "InteractionToTriggerOn": "CAN_Update"
-            },
-            "Action": {
-              "Type": "ActionCustom",
-              "FunctionName": "setError_VCU"
-            }
-          },
-          {
-            "InteractionName": "errorUpdate_Inverter",
-            "Trigger": {
-              "Type": "TriggerInteractionCompleted",
-              "InteractionToTriggerOn": "CAN_Update"
-            },
-            "Action": {
-              "Type": "ActionCustom",
-              "FunctionName": "setError_Inverter"
-            }
-          },
-          {
-            "InteractionName": "errorUpdate_WheelSpeed",
-            "Trigger": {
-              "Type": "TriggerInteractionCompleted",
-              "InteractionToTriggerOn": "CAN_Update"
-            },
-            "Action": {
-              "Type": "ActionCustom",
-              "FunctionName": "setError_WheelSpeed"
-            }
-          },
-          {
-            "InteractionName": "BarUpdate_Accel",
-            "Trigger": {
-              "Type": "TriggerInteractionCompleted",
-              "InteractionToTriggerOn": "CAN_Update"
-            },
-            "Action": {
-              "Type": "ActionCustom",
-              "FunctionName": "setAccel"
-            }
-          },
-          {
-            "InteractionName": "BarUpdate_Brake",
-            "Trigger": {
-              "Type": "TriggerInteractionCompleted",
-              "InteractionToTriggerOn": "CAN_Update"
-            },
-            "Action": {
-              "Type": "ActionCustom",
-              "FunctionName": "setBrake"
-            }
-          },
           {
             "InteractionName": "CAN_Update",
             "HasCompletedTrigger": true,
@@ -587,17 +508,6 @@
             "Action": {
               "Type": "ActionCustom",
               "FunctionName": "updateCAN"
-            }
-          },
-          {
-            "InteractionName": "unveilingUpdate",
-            "Trigger": {
-              "Type": "TriggerOnEveryTick",
-              "TickCount": 1
-            },
-            "Action": {
-              "Type": "ActionCustom",
-              "FunctionName": "unveilingUpdate"
             }
           }
         ]
@@ -654,6 +564,6 @@
     ],
     "AdditionalFeatures": []
   },
-  "Version": "4.23.0",
+  "Version": "4.23.2",
   "CreatedBy": "4.23.0"
 }

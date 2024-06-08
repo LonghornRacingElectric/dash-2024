@@ -19,6 +19,9 @@ Main_2ViewBase::Main_2ViewBase()
     speed.setXY(277, -29);
     speed.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
     speed.setLinespacing(0);
+    Unicode::snprintf(speedBuffer, SPEED_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_I6JL).getText());
+    speed.setWildcard(speedBuffer);
+    speed.resizeToCurrentText();
     speed.setTypedText(touchgfx::TypedText(T___SINGLEUSE_LP9N));
     add(speed);
 
@@ -67,18 +70,27 @@ Main_2ViewBase::Main_2ViewBase()
     max_Speed.setXY(60, 120);
     max_Speed.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
     max_Speed.setLinespacing(0);
+    Unicode::snprintf(max_SpeedBuffer, MAX_SPEED_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_7F43).getText());
+    max_Speed.setWildcard(max_SpeedBuffer);
+    max_Speed.resizeToCurrentText();
     max_Speed.setTypedText(touchgfx::TypedText(T___SINGLEUSE_3IMD));
     add(max_Speed);
 
     min_Speed.setXY(621, 120);
     min_Speed.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
     min_Speed.setLinespacing(0);
+    Unicode::snprintf(min_SpeedBuffer, MIN_SPEED_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_YT4K).getText());
+    min_Speed.setWildcard(min_SpeedBuffer);
+    min_Speed.resizeToCurrentText();
     min_Speed.setTypedText(touchgfx::TypedText(T___SINGLEUSE_L6S9));
     add(min_Speed);
 
     draw_val.setXY(615, 392);
     draw_val.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
     draw_val.setLinespacing(0);
+    Unicode::snprintf(draw_valBuffer, DRAW_VAL_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_Y1U1).getText());
+    draw_val.setWildcard(draw_valBuffer);
+    draw_val.resizeToCurrentText();
     draw_val.setTypedText(touchgfx::TypedText(T___SINGLEUSE_QGWY));
     add(draw_val);
 
@@ -135,6 +147,9 @@ Main_2ViewBase::Main_2ViewBase()
     laptime_min.setXY(170, 187);
     laptime_min.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
     laptime_min.setLinespacing(0);
+    Unicode::snprintf(laptime_minBuffer, LAPTIME_MIN_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_Q3TA).getText());
+    laptime_min.setWildcard(laptime_minBuffer);
+    laptime_min.resizeToCurrentText();
     laptime_min.setTypedText(touchgfx::TypedText(T___SINGLEUSE_TEPV));
     add(laptime_min);
 
@@ -147,6 +162,9 @@ Main_2ViewBase::Main_2ViewBase()
     laptime_seconds.setXY(316, 187);
     laptime_seconds.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
     laptime_seconds.setLinespacing(0);
+    Unicode::snprintf(laptime_secondsBuffer, LAPTIME_SECONDS_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_A32Z).getText());
+    laptime_seconds.setWildcard(laptime_secondsBuffer);
+    laptime_seconds.resizeToCurrentText();
     laptime_seconds.setTypedText(touchgfx::TypedText(T___SINGLEUSE_YMA8));
     add(laptime_seconds);
 
@@ -159,12 +177,17 @@ Main_2ViewBase::Main_2ViewBase()
     laptime_hundreths.setXY(455, 187);
     laptime_hundreths.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
     laptime_hundreths.setLinespacing(0);
+    Unicode::snprintf(laptime_hundrethsBuffer, LAPTIME_HUNDRETHS_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_ZF07).getText());
+    laptime_hundreths.setWildcard(laptime_hundrethsBuffer);
+    laptime_hundreths.resizeToCurrentText();
     laptime_hundreths.setTypedText(touchgfx::TypedText(T___SINGLEUSE_M8AI));
     add(laptime_hundreths);
 
     laptime_mili.setXY(565, 187);
     laptime_mili.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
     laptime_mili.setLinespacing(0);
+    laptime_mili.setWildcard(touchgfx::TypedText(T___SINGLEUSE_KZWY).getText());
+    laptime_mili.resizeToCurrentText();
     laptime_mili.setTypedText(touchgfx::TypedText(T___SINGLEUSE_SV5H));
     add(laptime_mili);
 
@@ -179,6 +202,15 @@ Main_2ViewBase::Main_2ViewBase()
     LV_text.setLinespacing(0);
     LV_text.setTypedText(touchgfx::TypedText(T___SINGLEUSE_CJBB));
     add(LV_text);
+
+    textArea1.setXY(262, 332);
+    textArea1.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    textArea1.setLinespacing(0);
+    textArea1.setWildcard(touchgfx::TypedText(T___SINGLEUSE_RFJ4).getText());
+    textArea1.resizeToCurrentText();
+    textArea1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_TBV8));
+    textArea1.setAlpha(0);
+    add(textArea1);
 }
 
 Main_2ViewBase::~Main_2ViewBase()
@@ -197,80 +229,4 @@ void Main_2ViewBase::handleTickEvent()
     //When every N tick call virtual function
     //Call updateCAN
     updateCAN();
-
-    //TextUpdate_Speed
-    //When CAN_Update completed call virtual function
-    //Call setSpeed
-    setSpeed();
-
-
-    //TextUpdate_MIN
-    //When CAN_Update completed call virtual function
-    //Call setMinSpeed
-    setMinSpeed();
-
-
-    //TextUpdate_MAX
-    //When CAN_Update completed call virtual function
-    //Call setMaxSpeed
-    setMaxSpeed();
-
-
-    //TextUpdate_Draw
-    //When CAN_Update completed call virtual function
-    //Call setDraw
-    setDraw();
-
-
-    //BarUpdate_HV
-    //When CAN_Update completed call virtual function
-    //Call setHV
-    setHV();
-
-
-    //BarUpdate_LV
-    //When CAN_Update completed call virtual function
-    //Call setLV
-    setLV();
-
-
-    //errorUpdate_Cooling
-    //When CAN_Update completed call virtual function
-    //Call setError_Cooling
-    setError_Cooling();
-
-
-    //errorUpdate_VCU
-    //When CAN_Update completed call virtual function
-    //Call setError_VCU
-    setError_VCU();
-
-
-    //errorUpdate_Inverter
-    //When CAN_Update completed call virtual function
-    //Call setError_Inverter
-    setError_Inverter();
-
-
-    //errorUpdate_WheelSpeed
-    //When CAN_Update completed call virtual function
-    //Call setError_WheelSpeed
-    setError_WheelSpeed();
-
-
-    //BarUpdate_Accel
-    //When CAN_Update completed call virtual function
-    //Call setAccel
-    setAccel();
-
-
-    //BarUpdate_Brake
-    //When CAN_Update completed call virtual function
-    //Call setBrake
-    setBrake();
-
-    //unveilingUpdate
-    //When every N tick call virtual function
-    //Call unveilingUpdate
-    unveilingUpdate();
 }

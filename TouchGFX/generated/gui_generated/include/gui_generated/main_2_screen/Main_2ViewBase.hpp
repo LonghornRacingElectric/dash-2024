@@ -9,8 +9,9 @@
 #include <gui/main_2_screen/Main_2Presenter.hpp>
 #include <touchgfx/widgets/Box.hpp>
 #include <touchgfx/widgets/Image.hpp>
-#include <touchgfx/widgets/TextArea.hpp>
+#include <touchgfx/widgets/TextAreaWithWildcard.hpp>
 #include <touchgfx/containers/progress_indicators/BoxProgress.hpp>
+#include <touchgfx/widgets/TextArea.hpp>
 
 class Main_2ViewBase : public touchgfx::View<Main_2Presenter>
 {
@@ -23,59 +24,7 @@ public:
     /*
      * Virtual Action Handlers
      */
-    virtual void setSpeed()
-    {
-        // Override and implement this function in Main_2
-    }
-    virtual void setMinSpeed()
-    {
-        // Override and implement this function in Main_2
-    }
-    virtual void setMaxSpeed()
-    {
-        // Override and implement this function in Main_2
-    }
-    virtual void setDraw()
-    {
-        // Override and implement this function in Main_2
-    }
-    virtual void setHV()
-    {
-        // Override and implement this function in Main_2
-    }
-    virtual void setLV()
-    {
-        // Override and implement this function in Main_2
-    }
-    virtual void setError_Cooling()
-    {
-        // Override and implement this function in Main_2
-    }
-    virtual void setError_VCU()
-    {
-        // Override and implement this function in Main_2
-    }
-    virtual void setError_Inverter()
-    {
-        // Override and implement this function in Main_2
-    }
-    virtual void setError_WheelSpeed()
-    {
-        // Override and implement this function in Main_2
-    }
-    virtual void setAccel()
-    {
-        // Override and implement this function in Main_2
-    }
-    virtual void setBrake()
-    {
-        // Override and implement this function in Main_2
-    }
     virtual void updateCAN()
-    {
-        // Override and implement this function in Main_2
-    }
-    virtual void unveilingUpdate()
     {
         // Override and implement this function in Main_2
     }
@@ -90,16 +39,16 @@ protected:
      */
     touchgfx::Box __background;
     touchgfx::Image main_background;
-    touchgfx::TextArea speed;
+    touchgfx::TextAreaWithOneWildcard speed;
     touchgfx::BoxProgress bar_LV;
     touchgfx::BoxProgress bar_HV;
     touchgfx::TextArea txt_MAX;
     touchgfx::TextArea txt_MIN;
     touchgfx::TextArea txt_kW;
     touchgfx::TextArea txt_ERRORS;
-    touchgfx::TextArea max_Speed;
-    touchgfx::TextArea min_Speed;
-    touchgfx::TextArea draw_val;
+    touchgfx::TextAreaWithOneWildcard max_Speed;
+    touchgfx::TextAreaWithOneWildcard min_Speed;
+    touchgfx::TextAreaWithOneWildcard draw_val;
     touchgfx::BoxProgress bar_accel;
     touchgfx::BoxProgress bar_brake;
     touchgfx::Image error_Cooling;
@@ -110,14 +59,33 @@ protected:
     touchgfx::Image errorOverlay_WheelSpeed;
     touchgfx::Image errorOverlay_VCU;
     touchgfx::Image errorOverlay_Inverter;
-    touchgfx::TextArea laptime_min;
+    touchgfx::TextAreaWithOneWildcard laptime_min;
     touchgfx::TextArea laptime_colon;
-    touchgfx::TextArea laptime_seconds;
+    touchgfx::TextAreaWithOneWildcard laptime_seconds;
     touchgfx::TextArea laptime_period;
-    touchgfx::TextArea laptime_hundreths;
-    touchgfx::TextArea laptime_mili;
+    touchgfx::TextAreaWithOneWildcard laptime_hundreths;
+    touchgfx::TextAreaWithOneWildcard laptime_mili;
     touchgfx::TextArea HV_text;
     touchgfx::TextArea LV_text;
+    touchgfx::TextAreaWithOneWildcard textArea1;
+
+    /*
+     * Wildcard Buffers
+     */
+    static const uint16_t SPEED_SIZE = 10;
+    touchgfx::Unicode::UnicodeChar speedBuffer[SPEED_SIZE];
+    static const uint16_t MAX_SPEED_SIZE = 10;
+    touchgfx::Unicode::UnicodeChar max_SpeedBuffer[MAX_SPEED_SIZE];
+    static const uint16_t MIN_SPEED_SIZE = 10;
+    touchgfx::Unicode::UnicodeChar min_SpeedBuffer[MIN_SPEED_SIZE];
+    static const uint16_t DRAW_VAL_SIZE = 10;
+    touchgfx::Unicode::UnicodeChar draw_valBuffer[DRAW_VAL_SIZE];
+    static const uint16_t LAPTIME_MIN_SIZE = 10;
+    touchgfx::Unicode::UnicodeChar laptime_minBuffer[LAPTIME_MIN_SIZE];
+    static const uint16_t LAPTIME_SECONDS_SIZE = 10;
+    touchgfx::Unicode::UnicodeChar laptime_secondsBuffer[LAPTIME_SECONDS_SIZE];
+    static const uint16_t LAPTIME_HUNDRETHS_SIZE = 10;
+    touchgfx::Unicode::UnicodeChar laptime_hundrethsBuffer[LAPTIME_HUNDRETHS_SIZE];
 
 private:
 
