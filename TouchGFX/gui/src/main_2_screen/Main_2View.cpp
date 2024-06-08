@@ -71,14 +71,14 @@ void Main_2View::updateCAN(){
     setLV(presenter->dash_lvCharge());
     setDraw(presenter->dash_draw());
     setAccelVal(presenter->dash_accel());
-    setBrakeVal(presetner->dash_brake());
+    setBrakeVal(presenter->dash_brake());
     setHVTemp(presenter->dash_hvTemp());
 
 
 
 }
 void Main_2View::setSpeed(int speedVal){
-    Unicode::snprintf(speedBuffer, TEXTAREA1_SIZE, "%d",speedVal);
+    Unicode::snprintf(speedBuffer, MAX_SPEED_SIZE, "%d",speedVal);
     speed.invalidate();
 }
 void Main_2View::setHV(int HV){
@@ -90,7 +90,7 @@ void Main_2View::setLV(int LV){
 
 
 void Main_2View::setDraw(int draw){
-    Unicode::snprintf(draw_valBuffer, TEXTAREA1_SIZE, "%d",draw);
+    Unicode::snprintf(draw_valBuffer, MAX_SPEED_SIZE, "%d",draw);
     draw_val.invalidate();
 }
 
@@ -102,8 +102,8 @@ void Main_2View::setAccelVal(int accel){
 }
 
 void Main_2View::setHVTemp(int temp){
-    Unicode::snprintf(max_speedBuffer, TEXTAREA1_SIZE, "%d",temp);
-    max_speed.invalidate();
+    Unicode::snprintf(max_SpeedBuffer, MAX_SPEED_SIZE, "%d",temp);
+    max_Speed.invalidate();
 }
 
 void Main_2View::setBrakeVal(int brake) {

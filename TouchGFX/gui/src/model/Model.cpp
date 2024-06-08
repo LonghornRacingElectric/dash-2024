@@ -22,7 +22,6 @@ void Model::receivePacket() {
     if(!started) {
         err = HAL_FDCAN_Start(&hfdcan1);
         started = true;
-        plugFlag = 1;
         return;
     }
 
@@ -31,21 +30,21 @@ void Model::receivePacket() {
     } else {
         uint32_t id = RxHeader.Identifier;
         if(id == 0x710)  {//Dash 1
-            speed = static_cast<float>RxData[0];
-            draw = static_cast<float>RxData[1];
-            accel = static_cast<float>RxData[2];
-            brake = static_cast<float>RxData[3];
-            lvCharge = static_cast<float>RxData[5];
-            hvTemp = static_cast<float>RxData[6];//Currently HV max temp
-            motorTemp = static_cast<float>RxData[7];//Currently Motor Temp
+            speed = static_cast<float>(RxData[0]);
+            draw = static_cast<float>(RxData[1]);
+            accel = static_cast<float>(RxData[2]);
+            brake = static_cast<float>(RxData[3]);
+            lvCharge = static_cast<float>(RxData[5]);
+            hvTemp = static_cast<float>(RxData[6]);//Currently HV max temp
+            motorTemp = static_cast<float>(RxData[7]);//Currently Motor Temp
         }
 
         if(id == 0x711) {//Dash 2
             //laptime time_seconds, time_minutes, time_tenths, time_miliseconds;
-            time_seconds = static_cast<float>RxData[0];
-            time_minutes = static_cast<float>RxData[1];
-            time_tenths = static_cast<float>RxData[2];
-            time_miliseconds = static_cast<float>RxData[3];
+            time_seconds = static_cast<float>(RxData[0]);
+            time_minutes = static_cast<float>(RxData[1]);
+            time_tenths = static_cast<float>(RxData[2]);
+            time_miliseconds = static_cast<float>(RxData[3]);
         }
 
     }

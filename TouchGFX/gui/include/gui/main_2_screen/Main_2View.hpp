@@ -45,7 +45,7 @@ protected:
     void setLV(int LV);
 
     void setHVTemp(int temp);
-    void setMotor
+    void setMotorTemp(int motorTemp);
 
     void setDraw(int draw);
     void setLapTime(int min, int sec, int hundredths, int thousandths);

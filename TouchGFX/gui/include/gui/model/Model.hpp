@@ -39,12 +39,17 @@ protected:
     float motorTemp;
     float hvTemp;
     float draw;
-    float lapTime_min;
-    float lapTime_;
+    float time_seconds;
+    float time_minutes;
+    float time_tenths;
+    float time_miliseconds;
     bool err_VCU;
     bool err_Cooling;
     bool err_WheelSpeed;
     bool err_Inverter;
+
+    bool started;
+
 
 
 
