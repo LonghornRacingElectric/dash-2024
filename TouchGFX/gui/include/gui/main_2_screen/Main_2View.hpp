@@ -11,7 +11,7 @@ class Main_2View : public Main_2ViewBase
 public:
 
 //	int time_seconds, time_minutes, time_tenths, time_miliseconds;
-//	int ticks,errTick;
+	int ticks; //,errTick;
 //	int count;
 //
 //	uint8_t CAN_SPEED, CAN_MIN, CAN_MAX, CAN_DRAW, CAN_HV, CAN_LV, CAN_BREAK, CAN_ACCEL;//brake is wrong on purpose i am not dumb i swear

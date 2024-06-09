@@ -42,7 +42,7 @@ protected:
     float time_seconds;
     float time_minutes;
     float time_tenths;
-    float time_miliseconds;
+    float time_milliseconds;
     bool err_VCU;
     bool err_Cooling;
     bool err_WheelSpeed;

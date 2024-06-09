@@ -60,19 +60,19 @@ public:
     }
 
     bool dash_inverter(){
-        return true;
+        return static_cast<bool>(model->errInverterFlag());
     }
 
     bool dash_wheelSpeed(){
-        return true;
+        return static_cast<bool>(model->errWheelSpeedFlag());
     }
 
     bool dash_cooling(){
-        return true;
+        return static_cast<bool>(model->errCoolingFlag());
     }
 
     bool dash_VCU(){
-        return true;
+        return static_cast<bool>(model->errVCUFlag());
     }
 
 

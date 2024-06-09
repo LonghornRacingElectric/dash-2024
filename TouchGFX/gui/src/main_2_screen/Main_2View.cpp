@@ -7,7 +7,7 @@
 
 Main_2View::Main_2View()
 {
-//	ticks = 0;
+	ticks = 0;
 //	count = 0;
 //	errTick = 0;
 //
@@ -66,6 +66,7 @@ void Main_2View::tearDownScreen()
 }
 
 void Main_2View::updateCAN(){
+    ticks ++;
     setSpeed(presenter->dash_speed());
     setHV(presenter->dash_hvCharge());
     setLV(presenter->dash_lvCharge());
@@ -73,12 +74,12 @@ void Main_2View::updateCAN(){
     setAccelVal(presenter->dash_accel());
     setBrakeVal(presenter->dash_brake());
     setHVTemp(presenter->dash_hvTemp());
-
-
-
+    setMotorTemp(presenter->dash_motorTemp());
+    setErrs(presenter->dash_VCU(), presenter->dash_inverter(),presenter->dash_cooling(),presenter->dash_wheelSpeed());
 }
+
 void Main_2View::setSpeed(int speedVal){
-    Unicode::snprintf(speedBuffer, MAX_SPEED_SIZE, "%d",speedVal);
+    Unicode::snprintf(speedBuffer, MAX_SPEED_SIZE, "%02d",speedVal);
     speed.invalidate();
 }
 void Main_2View::setHV(int HV){
@@ -90,7 +91,7 @@ void Main_2View::setLV(int LV){
 
 
 void Main_2View::setDraw(int draw){
-    Unicode::snprintf(draw_valBuffer, MAX_SPEED_SIZE, "%d",draw);
+    Unicode::snprintf(draw_valBuffer, MAX_SPEED_SIZE, "%02d",draw);
     draw_val.invalidate();
 }
 
@@ -102,7 +103,7 @@ void Main_2View::setAccelVal(int accel){
 }
 
 void Main_2View::setHVTemp(int temp){
-    Unicode::snprintf(max_SpeedBuffer, MAX_SPEED_SIZE, "%d",temp);
+    Unicode::snprintf(max_SpeedBuffer, MAX_SPEED_SIZE, "%02d",temp);
     max_Speed.invalidate();
 }
 
@@ -110,10 +111,95 @@ void Main_2View::setBrakeVal(int brake) {
     bar_brake.setValue(brake);
 }
 
+void Main_2View::setMotorTemp(int motorTemp){
+    Unicode::snprintf(min_SpeedBuffer, MIN_SPEED_SIZE, "%02d",motorTemp);
+    min_Speed.invalidate();
+}
+
 
 void Main_2View::setErrs(bool VCU, bool inverter, bool cooling, bool wheelSpeed){
-
+    if(ticks == 100000){
+        ticks = 0;
+    }
+    if(VCU){
+        error_VCU.setAlpha(255);
+        if(ticks%15 == 0){
+            if(errorOverlay_VCU.getAlpha() == 0){
+                errorOverlay_VCU.setAlpha(255);
+            }
+            else{
+                errorOverlay_VCU.setAlpha(0);
+            }
+        }
+        error_VCU.invalidate();
+        errorOverlay_VCU.invalidate();
+    }else{
+        error_VCU.setAlpha(0);
+        errorOverlay_VCU.setAlpha(0);
+        error_VCU.invalidate();
+        errorOverlay_VCU.invalidate();
+    }
+    /////
+    if(inverter){
+        error_Inverter.setAlpha(255);
+        if(ticks%15 == 0){
+            if(errorOverlay_Inverter.getAlpha() == 0){
+                errorOverlay_Inverter.setAlpha(255);
+            }
+            else{
+                errorOverlay_Inverter.setAlpha(0);
+            }
+        }
+        error_Inverter.invalidate();
+        errorOverlay_Inverter.invalidate();
+    }else{
+        error_Inverter.setAlpha(0);
+        errorOverlay_Inverter.setAlpha(0);
+        error_Inverter.invalidate();
+        errorOverlay_Inverter.invalidate();
+    }
+    ///
+    if(cooling){
+        error_Cooling.setAlpha(255);
+        if(ticks%15 == 0){
+            if(errorOverlay_Cooling.getAlpha() == 0){
+                errorOverlay_Cooling.setAlpha(255);
+            }
+            else{
+                errorOverlay_Cooling.setAlpha(0);
+            }
+        }
+        error_Cooling.invalidate();
+        errorOverlay_Cooling.invalidate();
+    }
+    else{
+        error_Cooling.setAlpha(0);
+        errorOverlay_Cooling.setAlpha(0);
+        error_Cooling.invalidate();
+        errorOverlay_Cooling.invalidate();
+    }
+    ///
+    if(wheelSpeed){
+        error_WheelSpeed.setAlpha(255);
+        if(ticks%15 == 0){
+            if(errorOverlay_WheelSpeed.getAlpha() == 0){
+                errorOverlay_WheelSpeed.setAlpha(255);
+            }
+            else{
+                errorOverlay_WheelSpeed.setAlpha(0);
+            }
+        }
+        error_WheelSpeed.invalidate();
+        errorOverlay_WheelSpeed.invalidate();
+    }
+    else{
+        error_WheelSpeed.setAlpha(0);
+        errorOverlay_WheelSpeed.setAlpha(0);
+        error_WheelSpeed.invalidate();
+        errorOverlay_WheelSpeed.invalidate();
+    }
 }
+
 
 //
 //void Main_2View::setSpeed()

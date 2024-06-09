@@ -75,7 +75,7 @@ void PeriphCommonClock_Config(void);
 static void SystemPower_Config(void);
 void MX_FREERTOS_Init(void);
 /* USER CODE BEGIN PFP */
-
+//static void FDCAN_Config(void);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -159,19 +159,11 @@ int main(void)
   MX_TouchGFX_PreOSInit();
   /* USER CODE BEGIN 2 */
 
-  // Start FDCAN1
-      if(HAL_FDCAN_Start(&hfdcan1)!= HAL_OK)
-      {
-          Error_Handler();
-      }
-//      // Activate the notification for new data in FIFO0 for FDCAN1
-//      if (HAL_FDCAN_ActivateNotification(&hfdcan1, FDCAN_IT_RX_FIFO0_NEW_MESSAGE, 0) != HAL_OK)
-//      {
-//          /* Notification Error */
-//          Error_Handler();
-//      }
-
-
+        /* Start the FDCAN module */
+    if(HAL_FDCAN_Start(&hfdcan1)!= HAL_OK)
+    {
+        Error_Handler();
+    }
 
 
   if (HAL_TIM_PWM_Start(&htim15, TIM_CHANNEL_1) != HAL_OK)

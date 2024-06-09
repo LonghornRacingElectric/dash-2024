@@ -16,12 +16,11 @@ Main_2ViewBase::Main_2ViewBase()
     main_background.setBitmap(touchgfx::Bitmap(BITMAP_BLANKBACK_BLACK_ID));
     add(main_background);
 
-    speed.setXY(277, -29);
+    speed.setPosition(270, -16, 287, 183);
     speed.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
     speed.setLinespacing(0);
     Unicode::snprintf(speedBuffer, SPEED_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_I6JL).getText());
     speed.setWildcard(speedBuffer);
-    speed.resizeToCurrentText();
     speed.setTypedText(touchgfx::TypedText(T___SINGLEUSE_LP9N));
     add(speed);
 
